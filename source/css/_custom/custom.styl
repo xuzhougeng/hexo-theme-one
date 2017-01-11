@@ -1,1 +1,16 @@
 // Custom styles.
+body{
+	background: #333333 url('/images/background.jpg') no-repeat center fixed;
+}
+
+#content, #comments {
+  background: rgba(255, 255, 255, 0.76);
+  padding: 2em;
+	border-radius: 1em;
+}
+
+@media print {
+	#header, #comments, #footer, .highlight figcaption a {
+		display: none;
+	}
+}
