@@ -19,7 +19,6 @@ rss:
 # icon between year and author @Footer
 authoricon: heart
 
-author: aak1247
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -72,8 +71,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
-scheme: Mist
+scheme: Muse
+#scheme: Mist
 #scheme: Pisces
 
 
