@@ -20,11 +20,6 @@ menu:
 sidebar:
   overview: 站点概览
   toc: 文章目录
-  social: 友情链接
-  Zhihu: 知乎
-  Weibo: 微博
-  LinkedIn: 领英
-  Douban: 豆瓣
 
 
 post:
@@ -67,6 +62,12 @@ state:
   pages: 页面
   tags: 标签
   categories: 分类
+  Links: 友情链接
+  social: 
+    Zhihu: 知乎
+    Weibo: 微博
+    LinkedIn: 领英
+    Douban: 豆瓣
 
 cheers:
   um: 嗯..
