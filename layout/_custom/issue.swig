@@ -4,7 +4,7 @@
             <a href="javascript:void(0);">
             <span id="ghComments-count">0</span>条留言</a>
     </div>
-    <ul id="gh-comments" style="opacity: 1"></ul>
+    <div id="gh-comments" style="opacity: 1"></div>
 </div>
 <script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="{{ url_for(theme.js) }}/src/issue.js"></script>

@@ -18,7 +18,7 @@ function formatDate(str) {
 
 function loadComments(data) {
     console.log("load comments");
-    ghComment_count.text(data.length.toString());
+    ghComment_count.innerHTML(data.length.toString());
     for (var i = 0; i < data.length; i++) {
         var cuser = data[i].user.login;
         var cuserlink = 'https://www.github.com/' + data[i].user.login;
@@ -26,18 +26,10 @@ function loadComments(data) {
         var cavatarlink = data[i].user.avatar_url;
         var cdate = formatDate(data[i].created_at);
         console.log(cbody);
-        ghComment.append('<div class="comment"><div class="commentgravatar"><img src="' + cavatarlink + '"></div><div class="commentheader"><a class="commentuser" href="' + cuserlink + '" target="_blank">' + cuser + '</a><span class="commentdate">' + cdate + '</span></div><div class="commentbody">' + cbody + '</div></div>');
-        // ghComment.append(
-        //     '<li class="gh-post"><div class="gh_avatar"><a target="_blank" href='
-        //     + cuserlink+' title='+cuser
-        //     +'><img src='+ cavatarlink +'></a></div>'
-        //     +'<div class="gh-comment-body">'
-        //     +   '<div class="gh-comment-header">'
-        //     +       '<a class="gh-user-name gh-highlight" href='+cuserlink+' target="_blank">'+cuser+'</a>'
-        //     +       '<span class="duoshuo-ua-separator"></span></div>'
-        //     +   '<p>'+cbody+'</p>'
-        //     +   '<div class="gh-comment-footer gh-comment-actions">'
-        //     +       '<span class="gh-time">'+cdate+'</span></div></div></div></li>');
+        ghComment.append('<div class="gh-single-comment"><div class="commentgravatar"><img src="' 
+        + cavatarlink + '"></div><div class="commentheader"><a class="commentuser" href="' 
+        + cuserlink + '" target="_blank">' + cuser + '</a><span class="commentdate">' 
+        + cdate + '</span></div><div class="commentbody">' + cbody + '</div></div>');
     }
 }
 
