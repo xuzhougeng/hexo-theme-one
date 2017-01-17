@@ -401,7 +401,7 @@ calendar:
 
 # Algolia Search
 algolia: 
-  applicationId: D9H213A3K8,
+  applicationID: D9H213A3K8,
   apiKey: 47184ccb2710976142b165ae9dc1eb32,
   adminApiKey: ddf1627ad4d52e80d78265e425a7c649,
   indexName: blog_PAGE,
