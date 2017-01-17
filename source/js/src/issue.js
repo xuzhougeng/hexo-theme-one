@@ -16,20 +16,28 @@ function formatDate(str) {
 }
 
 function loadComments(data) {
+    var span='';
     for (var i = 0; i < data.length; i++) {
         var cuser = data[i].user.login;
         var cuserlink = 'https://www.github.com/' + data[i].user.login;
         var cbody = data[i].body_html;
         var cavatarlink = data[i].user.avatar_url;
         var cdate = formatDate(data[i].created_at);
-        ghComment.append('<div class="comment"><div class="commentgravatar"><img src="' + cavatarlink 
-            + '"></div><div class="commentheader"><a class="commentuser" href="' + cuserlink + '" target="_blank">' 
-            + cuser + '</a><span class="commentdate"> 留言于' + cdate + '</span></div><div class="commentbody">' 
-            + cbody + '</div></div>');
+        ghComment.append(
+            '<li class="ds-post"><div class="ds_avatar"><a target="_blank" href='
+            + cuserlink+' title='+cuser
+            +'><img src='+ cavatarlink +'></a></div>'
+            +'<div class="ds-comment-body">'
+            +   '<div class="ds-comment-header">'
+            +       '<a class="ds-user-name ds-highlight" href='+cuserlink+' target="_blank">'+cuser+'</a>'
+            +       '<span class="duoshuo-ua-separator"></span></div>'
+            +   '<p>'+cbody+'</p>'
+            +   '<div class="ds-comment-footer ds-comment-actions">'
+            +       '<span class="ds-time">'+cdate+'</span></div></div></div></li>');
     }
 }
 
-$.ajax('https://api.github.com/repos/niices/aak1247.github.io/issues/1/comments?per_page=100', {
+$.ajax('https://api.github.com/repos/aak1247/aak1247.github.io/issues/1/comments?per_page=100', {
     headers: {
         Accept: 'application/vnd.github.full+json'
     },
