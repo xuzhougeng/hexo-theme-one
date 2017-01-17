@@ -1,5 +1,5 @@
-var ghComment = $("#gh-comment");
-var ghComment_count = $("gh-comment-count");
+var ghComment = $("#gh-comments");
+var ghComment_count = $("gh-comments-count");
 
 function formatNumber(val, len) {
     var num = "" + val;
@@ -26,16 +26,16 @@ function loadComments(data) {
         var cavatarlink = data[i].user.avatar_url;
         var cdate = formatDate(data[i].created_at);
         ghComment.append(
-            '<li class="ds-post"><div class="ds_avatar"><a target="_blank" href='
+            '<li class="gh-post"><div class="gh_avatar"><a target="_blank" href='
             + cuserlink+' title='+cuser
             +'><img src='+ cavatarlink +'></a></div>'
-            +'<div class="ds-comment-body">'
-            +   '<div class="ds-comment-header">'
-            +       '<a class="ds-user-name ds-highlight" href='+cuserlink+' target="_blank">'+cuser+'</a>'
+            +'<div class="gh-comment-body">'
+            +   '<div class="gh-comment-header">'
+            +       '<a class="gh-user-name gh-highlight" href='+cuserlink+' target="_blank">'+cuser+'</a>'
             +       '<span class="duoshuo-ua-separator"></span></div>'
             +   '<p>'+cbody+'</p>'
-            +   '<div class="ds-comment-footer ds-comment-actions">'
-            +       '<span class="ds-time">'+cdate+'</span></div></div></div></li>');
+            +   '<div class="gh-comment-footer gh-comment-actions">'
+            +       '<span class="gh-time">'+cdate+'</span></div></div></div></li>');
     }
 }
 
