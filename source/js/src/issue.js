@@ -18,7 +18,7 @@ function formatDate(str) {
 
 function loadComments(data) {
     console.log("load comments");
-    ghComment_count.text(date.length.toString());
+    ghComment_count.text(data.length.toString());
     for (var i = 0; i < data.length; i++) {
         var cuser = data[i].user.login;
         var cuserlink = 'https://www.github.com/' + data[i].user.login;
