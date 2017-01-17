@@ -16,7 +16,7 @@ function formatDate(str) {
 }
 
 function loadComments(data) {
-    var span='';
+    console.log("load comments");
     for (var i = 0; i < data.length; i++) {
         var cuser = data[i].user.login;
         var cuserlink = 'https://www.github.com/' + data[i].user.login;
