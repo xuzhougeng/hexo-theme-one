@@ -13,5 +13,5 @@
     </div>
 </div>
 </div>
-<script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="{{ url_for(theme.js) }}/src/issue.js"></script>
