@@ -1,5 +1,5 @@
-var ghComment = $("#ghComment");
-var ghComment_count = $("ghComment_count");
+var ghComment = $("#gh-comment");
+var ghComment_count = $("gh-comment-count");
 
 function formatNumber(val, len) {
     var num = "" + val;
@@ -26,9 +26,9 @@ function loadComments(data) {
         var cavatarlink = data[i].user.avatar_url;
         var cdate = formatDate(data[i].created_at);
         ghComment.append(
-            '<li class="ds-post"><div class="ds-replybox"><div class="ds_avatar"><a target="_blank" href='
+            '<li class="ds-post"><div class="ds_avatar"><a target="_blank" href='
             + cuserlink+' title='+cuser
-            +'><img src='+ cavatarlink +'></a></div></div>'
+            +'><img src='+ cavatarlink +'></a></div>'
             +'<div class="ds-comment-body">'
             +   '<div class="ds-comment-header">'
             +       '<a class="ds-user-name ds-highlight" href='+cuserlink+' target="_blank">'+cuser+'</a>'
