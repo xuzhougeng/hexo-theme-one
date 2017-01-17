@@ -2,14 +2,14 @@
 <div class="comments" id="comments">
 <div class="ds-thread" id="ds-thread">
     <div id="ds-reset">
-    <div class="ds-comments-info">
-        <ul class="ds-comments-tabs">
-        <li class="ds-tab">
-            <a class="ds-comments-tab-duoshuo ds-current" href="javascript:void(0);">
-            <span class="ds-highlight" id="ghComment-count">1</span>条留言</a>
-        </li>
-    </div>
-    <ul class="ds-comments" id="ghComment" style="opacity: 1"></ul>
+        <div class="ds-comments-info">
+            <ul class="ds-comments-tabs">
+            <li class="ds-tab">
+                <a class="ds-comments-tab-duoshuo ds-current" href="javascript:void(0);">
+                <span class="ds-highlight" id="ghComment-count"></span>条留言</a>
+            </li>
+        </div>
+        <ul class="ds-comments" id="ghComment" style="opacity: 1"></ul>
     </div>
 </div>
 </div>
