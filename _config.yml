@@ -135,7 +135,7 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  Github: https://github.com/aak1247
+  GitHub: https://github.com/aak1247
   Weibo: http://weibo.com/1632010363/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1
   Douban: https://www.douban.com/people/73014209/
   Zhihu: https://www.zhihu.com/people/liu-ya-hui-61/activities
