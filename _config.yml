@@ -134,7 +134,13 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
+  Github: https://github.com/aak1247
+  Weibo: http://weibo.com/1632010363/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1
+  Douban: https://www.douban.com/people/73014209/
+  Zhihu: https://www.zhihu.com/people/liu-ya-hui-61/activities
+  LinkedIn: https://www.linkedin.com/in/%E4%BA%9A%E8%BE%89-%E6%9F%B3-474b38ba
+
   #LinkLabel: Link
 
 
@@ -150,7 +156,7 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
-
+  LinkedIn: linkedin
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -190,10 +196,11 @@ sidebar:
 
 
 # Blogrolls
-#links_title: Links
+links_title: Links
 #links_layout: block
-#links_layout: inline
-#links:
+links_layout: inline
+links:
+  zccz14: http://zccz14.com/
   #Title: http://example.com/
 
 
@@ -256,8 +263,8 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
@@ -345,9 +352,9 @@ facebook_comments_plugin:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: PiB6IwrOsJqyeKfHCxwoh0y1-gzGzoHsz
+  app_key: QDrg7aeMqFaLL6ApD7N8NrWU
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -393,6 +400,13 @@ calendar:
   maxResults: 250
 
 # Algolia Search
+algolia: 
+  applicationId: D9H213A3K8,
+  apiKey: 47184ccb2710976142b165ae9dc1eb32,
+  adminApiKey: ddf1627ad4d52e80d78265e425a7c649,
+  indexName: blog_PAGE,
+  chunkSize: 5000
+
 algolia_search:
   enable: true
   hits:
@@ -401,6 +415,11 @@ algolia_search:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}"
     hits_stats: "${hits} results found in ${time} ms"
+
+reward_comment: "觉得有用的话赞助一点吧~"
+wechatpay: /images/wechatpay.png
+alipay: /images/alipay.jpg
+
 
 
 
