@@ -52,7 +52,7 @@
           </div>
         </div>
       </div>
-      <script type="text/javascript" src="{{ url_for(theme.js) }}/issue.js"></script>
+      <script type="text/javascript" src="{{ url_for(theme.js) }}/src/issue.js"></script>
     {% elif page.type === 'about'%}
       <blockquote class="blockquote-center leave-message">快来留言吧！~请在 <a href="https://github.com/aak1247/aak1247.github.io/issues/1" target="_blank">Github issue</a> 页面完成操作_(:з」∠)_</blockquote>
       <div class="comments" id="comments">
@@ -69,7 +69,7 @@
           </div>
         </div>
       </div>
-      <script type="text/javascript" src="{{ url_for(theme.js) }}/issue.js"></script>
+      <script type="text/javascript" src="{{ url_for(theme.js) }}/src/issue.js"></script>
     {% else %}
       {{ page.content }}
     {% endif %}
