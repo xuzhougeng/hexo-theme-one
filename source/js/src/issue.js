@@ -1,5 +1,5 @@
 var ghComment = $("#gh-comments");
-var ghComment_count = $("gh-comments-count");
+//var ghComment_count = $("gh-comments-count");
 
 function formatNumber(val, len) {
     var num = "" + val;
@@ -18,7 +18,7 @@ function formatDate(str) {
 
 function loadComments(data) {
     console.log("load comments");
-    ghComment_count.innerHTML(data.length.toString());
+    document.getDocumentById("gh-comments-count").innerHTML(data.length.toString());
     for (var i = 0; i < data.length; i++) {
         var cuser = data[i].user.login;
         var cuserlink = 'https://www.github.com/' + data[i].user.login;
