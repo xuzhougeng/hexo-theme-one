@@ -38,8 +38,7 @@
       </div>
     {% elif page.type === 'issue' %}
       {% include '_custom/issue.swig' %}
-    {% elif page.type === 'about'%}
-      {% include '_custom/issue.swig' %}
+
     {% else %}
       {{ page.content }}
     {% endif %}
