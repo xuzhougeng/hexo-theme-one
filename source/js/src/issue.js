@@ -26,8 +26,9 @@ function loadComments(data) {
         var cavatarlink = data[i].user.avatar_url;
         var cdate = formatDate(data[i].created_at);
         console.log(cbody);
-        ghComment.append('<div class="gh-single-comment"><div class="commentgravatar"><img src="' 
-        + cavatarlink + '"></div><div class="commentheader"><a class="commentuser" href="' 
+        ghComment.append('<div class="gh-single-comment"><div class="commentgravatar"><a href="'+
+        + cuserlink +'"><img src="' 
+        + cavatarlink + '"></a></div><div class="commentheader"><a class="commentuser" href="' 
         + cuserlink + '" target="_blank">' + cuser + '</a><span class="commentdate">' 
         + cdate + '</span></div><div class="commentbody">' + cbody + '</div></div>');
     }
