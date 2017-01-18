@@ -2,7 +2,7 @@
 <div id="messages">
     <div id="gh-comments-info">
             <a href="javascript:void(0);">
-            <span id="ghComments-count">0</span>条留言</a>
+            <span id="gh-comments-count">0</span>条留言</a>
     </div>
     <div id="gh-comments" style="opacity: 1"></div>
 </div>
