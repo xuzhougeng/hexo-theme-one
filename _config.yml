@@ -136,10 +136,10 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   GitHub: https://github.com/aak1247
-  Weibo: http://weibo.com/1632010363/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1
-  Douban: https://www.douban.com/people/73014209/
-  Zhihu: https://www.zhihu.com/people/liu-ya-hui-61/activities
-  LinkedIn: https://www.linkedin.com/in/%E4%BA%9A%E8%BE%89-%E6%9F%B3-474b38ba
+  微博: http://weibo.com/1632010363/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1
+  豆瓣: https://www.douban.com/people/73014209/
+  知乎: https://www.zhihu.com/people/liu-ya-hui-61/activities
+  领英: https://www.linkedin.com/in/%E4%BA%9A%E8%BE%89-%E6%9F%B3-474b38ba
 
   #LinkLabel: Link
 
@@ -155,8 +155,8 @@ social_icons:
   # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
-  Weibo: weibo
-  LinkedIn: linkedin
+  微博: weibo
+  领英: linkedin
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -196,7 +196,7 @@ sidebar:
 
 
 # Blogrolls
-links_title: Links
+links_title: 友情链接
 #links_layout: block
 links_layout: inline
 links:
