@@ -91,7 +91,7 @@ font:
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
   host:
 
-  # Global font settings used on <body> element.
+   # Global font settings used on <body> element.
   global:
     # external: true will load this font family from host.
     external: true
@@ -123,9 +123,11 @@ font:
     family:
     size:
 
-
-
-
+# see more settings
+auto_excerpt: 
+  enable: true
+  length: 150
+  
 # ---------------------------------------------------------------
 # Sidebar Settings
 # ---------------------------------------------------------------
