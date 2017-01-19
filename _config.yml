@@ -202,6 +202,10 @@ links:
   zccz14: http://zccz14.com/
   #Title: http://example.com/
 
+links_icons: 
+  enable: true
+  zccz14: shen
+
 
 # ---------------------------------------------------------------
 # Post Settings
@@ -381,7 +385,7 @@ busuanzi_count:
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: false
 
-baidu-site-verification: UX9g1c87KX
+baidu-site-verification: cIjm34JFyS
 # Google Calendar
 # Share your recent schedule to others via calendar page
 #

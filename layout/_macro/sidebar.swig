@@ -101,13 +101,21 @@
         {% if theme.links %}
           <div class="links-of-blogroll motion-element {{ "links-of-blogroll-" + theme.links_layout | default('inline') }}">
             <div class="links-of-blogroll-title">
-              <i class="fa  fa-fw fa-{{ theme.links_icon | default('globe') | lower }}"></i>
+              <svg class="icon-symbol" aria-hidden="true">
+                <use xlink:href="#icon-friend"></use>
+              </svg>
               {{ theme.links_title }}
             </div>
             <ul class="links-of-blogroll-list">
               {% for name, link in theme.links %}
                 <li class="links-of-blogroll-item">
-                  <a href="{{ link }}" title="{{ name }}" target="_blank">{{ name }}</a>
+                  <a href="{{ link }}" title="{{ name }}" target="_blank">
+                  {% if theme.links_icons.enable %}
+                    <svg class="icon-symbol" aria-hidden="true">
+                      <use xlink:href="#icon-{{theme.links_icons[name] | default('link') | lower}}"></use>
+                    </svg>
+                  {% endif %}
+                  {{ name }}</a>
                 </li>
               {% endfor %}
             </ul>
