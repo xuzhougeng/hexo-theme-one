@@ -77,7 +77,9 @@
               <span class="links-of-author-item">
                 <a href="{{ link }}" target="_blank" title="{{ name }}">
                   {% if theme.social_icons.enable %}
-                    <i class="fa fa-fw fa-{{ theme.social_icons[name] | default('globe') | lower }}"></i>
+                    <svg class="icon-symbol" aria-hidden="true">
+                      <use xlink:href="#icon-{{theme.social_icons[name] | default('link') | lower}}"></use>
+                    </svg>
                   {% endif %}
                   {{ name }}
                 </a>

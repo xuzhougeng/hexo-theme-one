@@ -6,12 +6,12 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "aak1247, hexo, NexT"
+keywords: "aak1247, hexo, NexT, 博客"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: atom.xml
 
 # Specify the date when the site was setup
 #since: 2015
@@ -91,7 +91,7 @@ font:
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
   host:
 
-   # Global font settings used on <body> element.
+  # Global font settings used on <body> element.
   global:
     # external: true will load this font family from host.
     external: true
@@ -127,7 +127,8 @@ font:
 auto_excerpt: 
   enable: true
   length: 150
-  
+
+
 # ---------------------------------------------------------------
 # Sidebar Settings
 # ---------------------------------------------------------------
@@ -159,6 +160,8 @@ social_icons:
   Twitter: twitter
   微博: weibo
   领英: linkedin
+  知乎: zhihu
+  豆瓣: douban
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -384,7 +387,7 @@ busuanzi_count:
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: false
 
-baidu-site-verification: <meta name="baidu-site-verification" content="UX9g1c87KX" />
+baidu-site-verification: UX9g1c87KX
 # Google Calendar
 # Share your recent schedule to others via calendar page
 #
