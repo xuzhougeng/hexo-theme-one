@@ -43,6 +43,7 @@ menu:
   archives: /archives
   tags: /tags
   issue: /issue
+  works: /works
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -64,7 +65,7 @@ menu_icons:
   sitemap: sitemap
   commonweal: heartbeat
   issue: comment
-
+  works: graduation-cap
 
 
 # ---------------------------------------------------------------
