@@ -40,6 +40,7 @@
       {% include '_custom/issue.swig' %}
 
     {% else %}
+      {% include '_partials/netease-music.swig' %}
       {{ page.content }}
     {% endif %}
   </div>
