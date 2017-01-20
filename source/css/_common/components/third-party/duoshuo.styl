@@ -11,8 +11,17 @@
     margin-bottom: 30px;
   }
 
-  #ds-thread #ds-reset .ds-replybox .ds-avatar, #ds-reset .ds-avatar img {
+  #ds-thread #ds-reset .ds-replybox .ds-avatar, #ds-reset .ds-avatar img,
+  #ds-recent-visitors .ds-avatar img  {
     box-shadow: none;
+  }
+
+  #ds-thread #ds-reset .ds-replybox .ds-avatar, #ds-reset .ds-avatar img:hover,
+  #ds-recent-visitors .ds-avatar img:hover {
+    box-shadow: 0 0 10px #fff;
+    rgba(255, 255, 255, .6), inset 0 0 20px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0 0 10px #fff;
+    rgba(255, 255, 255, .6), inset 0 0 20px rgba(255, 255, 255, 1);
   }
 
   #ds-thread #ds-reset .ds-textarea-wrapper {
