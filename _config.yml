@@ -404,15 +404,8 @@ calendar:
   maxResults: 250
 
 # Algolia Search
-algolia: 
-  applicationID: D9H213A3K8,
-  apiKey: 47184ccb2710976142b165ae9dc1eb32,
-  adminApiKey: ddf1627ad4d52e80d78265e425a7c649,
-  indexName: blog_PAGE,
-  chunkSize: 5000
-
 algolia_search:
-  enable: true
+  enable: false
   hits:
     per_page: 10
   labels:
