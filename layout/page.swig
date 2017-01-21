@@ -38,7 +38,7 @@
       </div>
     {% elif page.type === 'issue' %}
       {% include '_custom/issue.swig' %}
-    {% elif page.type === 'works'%}
+    {% elif page.type === 'works' %}
       {{ page.content }}
       {% include '_custom/works.swig' %}
     {% else %}
