@@ -48,19 +48,12 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-<<<<<<< HEAD
   categories: /categories
   about: /about
   archives: /archives
   tags: /tags
   issue: /issue
   works: /works
-=======
-  #categories: /categories/
-  #about: /about/
-  archives: /archives/
-  tags: /tags/
->>>>>>> d51caa2c0dd44614be7ae085633ef00b6eed79e1
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -80,11 +73,8 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
-<<<<<<< HEAD
   issue: comment
   works: graduation-cap
-=======
->>>>>>> d51caa2c0dd44614be7ae085633ef00b6eed79e1
 
 
 # ---------------------------------------------------------------
@@ -98,7 +88,6 @@ scheme: Mist
 
 
 # ---------------------------------------------------------------
-<<<<<<< HEAD
 # Font Settings
 # - Find fonts on Google Fonts (https://www.google.com/fonts)
 # - All fonts set here will have the following styles:
@@ -145,8 +134,6 @@ font:
     size:
 
 # ---------------------------------------------------------------
-=======
->>>>>>> d51caa2c0dd44614be7ae085633ef00b6eed79e1
 # Sidebar Settings
 # ---------------------------------------------------------------
 
@@ -173,21 +160,10 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
-<<<<<<< HEAD
   微博: weibo
   领英: linkedin
   知乎: zhihu
   豆瓣: douban
-=======
-  Weibo: weibo
-
-# Blog rolls
-#links_title: Links
-#links_layout: block
-#links_layout: inline
-#links:
-  #Title: http://example.com/
->>>>>>> d51caa2c0dd44614be7ae085633ef00b6eed79e1
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -229,7 +205,6 @@ sidebar:
   offset: 12
   offset_float: 0
 
-<<<<<<< HEAD
 # Blogrolls
 links_title: 友情链接
 #links_layout: block
@@ -238,16 +213,6 @@ links:
   zccz14: http://zccz14.com/
   Macsnow14: http://blog.macsnow.cn/
   #Title: http://example.com/
-=======
-  # Back to top in sidebar
-  b2t: false
-
-  # Scroll percent label in b2t button
-  scrollpercent: false
-  
-  # Enable sidebar on narrow view
-  onmobile: false
->>>>>>> d51caa2c0dd44614be7ae085633ef00b6eed79e1
 
 links_icons: 
   enable: true
@@ -376,15 +341,9 @@ font:
 
 # MathJax Support
 mathjax:
-<<<<<<< HEAD
   enable: true
   per_page: true
-  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-=======
-  enable: false
-  per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
->>>>>>> d51caa2c0dd44614be7ae085633ef00b6eed79e1
 
 # Han Support docs: https://hanzi.pro/
 han: false
@@ -725,11 +684,7 @@ js: js
 images: images
 
 # Theme version
-<<<<<<< HEAD
 version: 5.1.0
 
 # startTime
 since: 2017
-=======
-version: 5.1.1
->>>>>>> d51caa2c0dd44614be7ae085633ef00b6eed79e1
