@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "aak1247, hexo, NexT, 博客"
+keywords: "hexo, NexT, 博客"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -49,12 +49,12 @@ index_with_subtitle: false
 menu:
   home: /
   categories: /categories
-  about: /about
+  #about: /about
   archives: /archives
   tags: /tags
-  issue: /issue
-  works: /works
-  #sitemap: /sitemap.xml
+  #issue: /issue
+  #works: /works
+  sitemap: /sitemap.xml
   #commonweal: /404.html
 
 # Enable/Disable menu icons.
@@ -72,9 +72,9 @@ menu_icons:
   tags: tags
   archives: archive
   sitemap: sitemap
-  commonweal: heartbeat
-  issue: comment
-  works: graduation-cap
+  #commonweal: heartbeat
+  #issue: comment
+  #works: graduation-cap
 
 
 # ---------------------------------------------------------------
@@ -141,11 +141,9 @@ scheme: Mist
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  GitHub: https://github.com/aak1247
-  微博: http://weibo.com/1632010363/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1
-  豆瓣: https://www.douban.com/people/73014209/
-  知乎: https://www.zhihu.com/people/liu-ya-hui-61/activities
-  领英: https://www.linkedin.com/in/%E4%BA%9A%E8%BE%89-%E6%9F%B3-474b38ba
+  GitHub: https://github.com/xuzhougeng
+  简书: http://www.jianshu.com/u/9ea40b5f607a
+
 
   #LinkLabel: Link
 
@@ -159,11 +157,7 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  Twitter: twitter
-  微博: weibo
-  领英: linkedin
-  知乎: zhihu
-  豆瓣: douban
+  简书: heartbeat
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -206,18 +200,18 @@ sidebar:
   offset_float: 0
 
 # Blogrolls
-links_title: 友情链接
+# links_title: 友情链接
 #links_layout: block
-links_layout: inline
-links:
-  zccz14: http://zccz14.com/
-  Macsnow14: http://blog.macsnow.cn/
+# links_layout: inline
+# links:
+#   zccz14: http://zccz14.com/
+#   Macsnow14: http://blog.macsnow.cn/
   #Title: http://example.com/
 
-links_icons: 
-  enable: true
-  zccz14: shen
-  Macsnow14: you
+# links_icons: 
+#   enable: true
+#   zccz14: shen
+#   Macsnow14: you
 
 
 # ---------------------------------------------------------------
@@ -250,8 +244,8 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
+  wordcount: true
+  min2read: true
   separated_meta: true
 
 # Wechat Subscriber
@@ -355,12 +349,12 @@ han: false
 #baidu_analytics:
 
 # Duoshuo ShortName
-duoshuo_shortname: aak1247
+# duoshuo_shortname: aak1247
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: https-xuzhougeng-github-io
   count: true
 
 # Hypercomments
@@ -393,14 +387,14 @@ changyan:
 #add_this_id:
 
 # Share
-duoshuo_share: true
+# duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-103652390-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
@@ -418,9 +412,9 @@ duoshuo_share: true
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
   ua_enable: true
-  admin_enable: true
-  user_id: 13871273
-  admin_nickname: 作者
+  admin_enable: false
+  user_id: 0
+  #admin_nickname:
 
 
 # Facebook SDK Support.
@@ -461,9 +455,9 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: true
-  app_id: PiB6IwrOsJqyeKfHCxwoh0y1-gzGzoHsz
-  app_key: QDrg7aeMqFaLL6ApD7N8NrWU
+  enable: false
+  app_id: 
+  app_key: 
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -494,7 +488,7 @@ busuanzi_count:
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: true
 
-baidu_site_verification: cIjm34JFyS
+# baidu_site_verification: cIjm34JFyS
 # Google Calendar
 # Share your recent schedule to others via calendar page
 #
@@ -522,9 +516,9 @@ algolia_search:
     hits_empty: "We didn't find any results for the search: ${query}"
     hits_stats: "${hits} results found in ${time} ms"
 
-reward_comment: "觉得有用的话赞助一点吧~"
+reward_comment: "如果觉得有用，可以请我喝咖啡哦~"
 wechatpay: /images/wechatpay.png
-alipay: /images/alipay.jpg
+# alipay: /images/alipay.jpg
 
 
 
